@@ -7,8 +7,14 @@ import ddf.minim.ugens.*;
 //
 //Global Variables
 //
+Minim minim;
+AudioPlayer dong = new Audioplayer
 //
-void setup() {} //End setup
+void setup() {
+  minim = new Minim(this);
+  song = minim.loadFile("../music/Die_For_You.mp3");
+  song.loop(0);
+} //End setup
 //
 void draw() {} //End draw
 //
