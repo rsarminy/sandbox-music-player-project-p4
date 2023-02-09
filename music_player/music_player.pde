@@ -7,10 +7,8 @@ import ddf.minim.ugens.*;
 //
 //Global Variables
 Minim minim;
-AudioPlayer song;
+AudioPlayer song0, song1, song2, song3, song4, song5, song6, song7, song8; 
 //
-Minim minim;
-AudioPlayer song0, song1, song2 song3, song4, song5, song6, song7, song8; 
 //
 void setup() {
   minim = new Minim(this);
@@ -23,7 +21,7 @@ void setup() {
   song6 = minim.loadFile("../music/.mp3");
   song7 = minim.loadFile("../music/.mp3");
   song8 = minim.loadFile("../music/Die_For_You.mp3");
-  song0.loop(0);
+  song8.loop(0);
 } //End setup
 //
 void draw() {} //End draw
