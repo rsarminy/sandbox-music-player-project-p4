@@ -21,10 +21,20 @@ void setup() {
 //
 void draw() {
   if ( activateWindow == true ) background(0);
+  //
+  printIn ( soundEffect0.position(), soundEffect0.length() );
+  printIn ("When does the soud stop? Indiates delay");
+  //
 } //End draw
 //
 void keyPressed() {
   //
+  //Play sound effect when pressing a key, including delay
+  soundEffect0.play;
+  soundEffect0.rewind();
+  delay(4000); //milliseconds read from draw() printIn(00 debugging
+  printIn( "KeyPressed:", soundEffect0.length() );
+  if ( key == '1' ) song0.loop(0);
   if ( key=='0') song0.loop(0);
   if ( key=='Q' || key=='q') exit();
   if ( key == CODED && key ==ESC ) exit();
