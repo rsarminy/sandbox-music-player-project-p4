@@ -2,7 +2,7 @@ void loadMusic() {
   minim = new Minim(this);
   //
   //Concatenation of Pathway + File Name
-  String musicPathway = "../music/"; //from Sketch to music Folder
+  String musicPathway = "../music/"; //From Sketch to music Folder
   String soundEffectPathway = "../sound effects/"; //From Sketch to sound effects Folder
   String 0448. Beach Holiday - AShamaluevMusicFileName = "0448. Beach Holiday - AShamaluevMusic.mp3";
   String 0454. Aura - AShamaluevMusicFileName = "0454. Aura - AShamaluevMusic.mp3";

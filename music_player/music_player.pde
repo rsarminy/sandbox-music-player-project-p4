@@ -10,7 +10,7 @@ Minim minim;
 AudioPlayer song0, song1, song2, song3, song4, song5, song6, song7, song8; 
 AudioPlayer soundEffect0;
 //
-Boolean firstMouseclick=false;
+Boolean activateWindow=false;
 //
 void setup() {
   size(300, 300);
@@ -20,7 +20,7 @@ void setup() {
 } //End setup
 //
 void draw() {
-  if ( firstMouseclick == true ) background(0);
+  if ( activateWindow == true ) background(0);
 } //End draw
 //
 void keyPressed() {
@@ -32,7 +32,7 @@ void keyPressed() {
 } //End keyPressed
 //
 void mousePressed() {
-  if ( firstMouseclick==false ) firstMouseclick = true;
+  if ( activateWindow==false ) activateWindow = true;
 } //End mousePressed
 //
 //End MAIN Program
